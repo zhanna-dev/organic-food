@@ -186,3 +186,18 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+a {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  display: inline-flex;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: initial;
+  cursor: pointer;
+}
