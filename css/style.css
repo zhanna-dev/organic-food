@@ -187,6 +187,13 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 a {
   display: flex;
   color: inherit;
@@ -200,4 +207,56 @@ button {
   background: none;
   border: initial;
   cursor: pointer;
+}
+
+.title {
+  font-family: Spartan;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 1.2;
+  color: #86b472;
+}
+.subtitle {
+
+}
+/*******************COMMON-STYLES-END*************************** */
+/*******************HEADER-START********************************/
+.header {
+  background: url(../img/bg-header.png) no-repeat 50% 0 / cover;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 51px;
+  height: 72px;
+  background: grey;
+}
+.main-title >{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.2;
+}
+.main-title-color {
+  color: #86b472;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.navbar >.navbar-link {
+line-height: 1.3;
+color: #86b472;
+font-weight: 600;
+font-size: 32px;
+}
+ul>li>a {
+  display: flex;
+  flex-direction: column;
 }
