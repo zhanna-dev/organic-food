@@ -209,14 +209,13 @@ button {
 }
 
 .title {
-  font-family: Spartan;
+  font-family: Spartan, serif;
   font-weight: 600;
   font-size: 70px;
   line-height: 1.2;
   color: #86b472;
 }
-.subtitle {
-}
+
 /*******************COMMON-STYLES-END*************************** */
 /*******************HEADER-START********************************/
 .header {
@@ -227,21 +226,25 @@ button {
   justify-content: space-between;
 }
 
+.logo {
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo-img {
   width: 51px;
   height: 72px;
-  background: grey;
 }
-.main-title > {
-  font-family: Segoe UI;
-  font-style: normal;
+.logo-text {
   font-weight: 600;
   font-size: 34px;
-  line-height: 1.2;
 }
-.main-title-color {
+
+.logo-text>span {
   color: #86b472;
 }
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
