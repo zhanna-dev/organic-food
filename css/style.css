@@ -360,7 +360,8 @@ button {
 /*********************INTRO-END********************************* */
 /********************MAIN-STYLES********************************* */
 .main {
-  padding: 100px 0;
+  padding: 100px 0 0;
+  background: url(../img/main-bg.webp) no-repeat 50% 0 / auto 100%;
 }
 
 .main-container {
@@ -386,4 +387,33 @@ button {
 
 .main-items {
   width: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-item {
+  width: 270px;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(158.25deg, #e1ecdc 27.9%, #ffffff 90.49%);
+  box-shadow: 0px 15px 50px rgba(51, 114, 25, 0.2);
+  border-radius: 15px;
+}
+
+.main-heading {
+  margin: 30px 0 0 20px;
+}
+
+.main-content {
+  margin-left: 20px;
+}
+
+.main-arrow-img {
+  position: absolute;
+  bottom: 30px;
+  left: 210px;
+  width: 40px;
+  height: 40px;
+  margin-left: 35px;
 }
