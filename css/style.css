@@ -240,7 +240,8 @@ button {
   font-weight: 600;
 }
 
-.subtitle {
+.subtitle,
+a {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -523,4 +524,58 @@ button {
   width: 14px;
   height: 14px;
 } */
-/* *******************NUTRITION-END************************** */
+/*********************NUTRITION-END************************** */
+/*********************FOOTER-START*************************** */
+.footer {
+  background: linear-gradient(
+    180.61deg,
+    rgba(152, 214, 125, 0.5) 0.45%,
+    rgba(86, 159, 54, 0.5) 99.39%
+  );
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav .footer-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  /* justify-content: space-between; */
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.footer-link {
+  text-align: center;
+  margin: 20px 0 20px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.footer-img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer-bottom {
+  font-size: 24px;
+  color: #545454;
+  text-align: center;
+}
