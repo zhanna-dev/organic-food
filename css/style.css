@@ -456,24 +456,17 @@ button {
   align-items: center;
   min-width: 250px;
   min-height: 65px;
-  /* border: 2px solid transparent; */
 }
-
-.promo-btn-content {
+.promo-btn:hover {
   background: none;
+  border: solid 2px #86b472;
   color: #86b472;
-  border: solid 2px;
 }
 
 .promo-img {
   max-width: 1010px;
   flex: 1;
   height: auto;
-
-/* .promo-btn:hover {
-  background: none;
-  color: #86b472;
-  border: solid 2px;
-} */
+}
 
 /**********************PROMO-END****************************** */
