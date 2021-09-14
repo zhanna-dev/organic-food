@@ -546,10 +546,9 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  /* justify-content: space-between; */
 }
 
-ul > li > a:hover {
+.footer-nav .footer-nav-list:hover {
   text-decoration: underline;
 }
 
@@ -579,3 +578,4 @@ ul > li > a:hover {
   color: #545454;
   text-align: center;
 }
+/*********************FOOTER-END************************************** */
