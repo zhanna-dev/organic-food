@@ -379,7 +379,7 @@ button {
 .intro-container {
   display: flex;
   align-items: center;
-  justify-content-text: space-between;
+  justify-content: space-between;
 }
 
 .intro-wrap {
