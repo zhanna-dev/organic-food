@@ -441,8 +441,11 @@ button {
   margin-top: -35px;
 }
 
-.main-heading {
+.main-content {
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-card-text {
@@ -450,7 +453,6 @@ button {
 }
 
 .main-arrow-img {
-  position: absolute;
   width: 40px;
   height: 40px;
   right: 30px;
