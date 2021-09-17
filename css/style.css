@@ -495,8 +495,84 @@ button {
   flex: 1;
   height: auto;
 }
-/**********************PROMO-END****************************** */
-/**********************NUTRITION-START*********************** */
+/**********************PROMO-END*******************************/
+/**********************BENEFITS-START**************************/
+.benefits {
+  padding: 100px 450px;
+  background: rgb(134, 180, 114, 0.25);
+}
+
+.benefits-hgroup {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.benefits-img {
+  width: 954px;
+  height: 644px;
+}
+
+.benefits-wrap {
+  position: relative;
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+}
+
+.benefits-wrap > .benefits-card {
+  position: absolute;
+}
+
+.benefits-wrap > .benefits-card:nth-child(1) {
+}
+.benefits-wrap > .benefits-card:nth-child(2) {
+}
+.benefits-wrap > .benefits-card:nth-child(3) {
+  top: calc(100%+20px);
+}
+.benefits-wrap > .benefits-card:nth-child(4) {
+}
+.benefits-wrap > .benefits-card:nth-child(5) {
+}
+
+.benefits-card-img::before {
+  content: "";
+  border-radius: 999px;
+  background: linear-gradient(158.25deg, #e1ecdc 27.9%, #ffffff 90.49%);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 144px;
+  height: 144px;
+}
+
+.benefits-card-img {
+  width: 75px;
+  height: 75px;
+}
+
+.benefits-arrow-img {
+  width: 40px;
+  height: 40px;
+}
+
+.benefits-card {
+  position: absolute;
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 334px;
+  background: linear-gradient(158.25deg, #e1ecdc 27.9%, #ffffff 90.49%);
+  border-radius: 15px;
+}
+.benefits-card-text {
+  margin: 44px 0 10px;
+}
+
+/**********************BENEFITS-END****************************/
+/**********************NUTRITION-START************************/
 .nutrition {
   padding: 130px 0 150px;
   background: url(../img/bg-nutrition.webp) no-repeat 50% 0 / 100%;
