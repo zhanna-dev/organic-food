@@ -171,6 +171,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -504,6 +505,14 @@ button {
 .nutrition-container {
   display: flex;
   justify-content: space-between;
+}
+
+.nutrition-list > li::before {
+  content: "";
+  border-radius: 999px;
+  background: #86b472;
+  width: 14px;
+  height: 14px;
 }
 
 .nutrition-card-text {
