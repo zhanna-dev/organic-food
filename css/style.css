@@ -455,6 +455,8 @@ button {
 .main-arrow-img {
   width: 40px;
   height: 40px;
+  right: 30px;
+  bottom: 30px;
 }
 /**********************MAIN-END*******************************/
 /**********************PROMO-STAR******************************/
@@ -516,13 +518,13 @@ button {
   flex: 1;
 }
 
-/* .nutrition-text::before {
-  card-text: "";
+.nutrition-text::before {
+  content: "";
   border-radius: 999px;
   background: #86b472;
   width: 14px;
   height: 14px;
-} */
+}
 /*********************NUTRITION-END************************** */
 /*********************FOOTER-START*************************** */
 .footer {
