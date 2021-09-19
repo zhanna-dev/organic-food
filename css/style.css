@@ -433,6 +433,10 @@ button {
   align-self: flex-end;
 }
 
+.main-item:nth-child(even) {
+  align-items: flex-start;
+}
+
 .main-item-img {
   width: 200px;
   height: 200px;
@@ -498,14 +502,15 @@ button {
 /**********************PROMO-END*******************************/
 /**********************BENEFITS-START**************************/
 .benefits {
-  padding: 100px 450px;
+  padding: 100px 0 450px;
   background: rgb(134, 180, 114, 0.25);
 }
 
 .benefits-hgroup {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 .benefits-img {
@@ -537,6 +542,7 @@ button {
 }
 
 .benefits-card-img::before {
+  display: inline-block;
   content: "";
   border-radius: 999px;
   background: linear-gradient(158.25deg, #e1ecdc 27.9%, #ffffff 90.49%);
@@ -556,17 +562,16 @@ button {
 }
 
 .benefits-card {
-  position: absolute;
-  padding: 0 20px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 270px;
-  height: 334px;
   background: linear-gradient(158.25deg, #e1ecdc 27.9%, #ffffff 90.49%);
   border-radius: 15px;
+  width: 270px;
+  height: 334px;
 }
+
 .benefits-card-text {
   margin: 44px 0 10px;
 }
