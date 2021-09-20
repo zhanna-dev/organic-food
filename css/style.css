@@ -510,16 +510,24 @@ button {
   background: rgb(134, 180, 114, 0.25);
 }
 
-.benefits-hgroup {
+.benefits-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.benefits-hgroup {
+  text-align: center;
+}
+
+.benefits-hgroup > .title {
+  display: block;
 }
 
 .benefits-img {
   width: 954px;
-  height: 644px;
+  height: 664px;
+  border: solid 2px;
 }
 
 .benefits-wrap {
@@ -533,16 +541,16 @@ button {
   position: absolute;
 }
 
-.benefits-wrap > .benefits-card:nth-child(1) {
+.benefits-wrap > .div:nth-of-type(1) {
+
+.benefits-wrap > .div:nth-of-type(2) {
 }
-.benefits-wrap > .benefits-card:nth-child(2) {
-}
-.benefits-wrap > .benefits-card:nth-child(3) {
+.benefits-wrap > .div:nth-of-type(3) {
   top: calc(100%+20px);
 }
-.benefits-wrap > .benefits-card:nth-child(4) {
+.benefits-wrap > .div:nth-of-type(4) {
 }
-.benefits-wrap > .benefits-card:nth-child(5) {
+.benefits-wrap > .div:nth-of-type(5) {
 }
 
 .benefits-card-img::before {
