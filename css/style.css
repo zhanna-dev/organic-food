@@ -468,6 +468,7 @@ button {
 /**********************PROMO-STAR******************************/
 .promo {
   padding: 200px 0 325px;
+  overflow: hidden;
 }
 
 .promo-container {
