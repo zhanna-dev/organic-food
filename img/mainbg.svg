@@ -1,6 +1,6 @@
 <svg width="1920" height="1131" viewBox="0 0 1920 1131" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="1919" height="1122" fill="white"/>
-<rect width="1920" height="1123" fill="black" fill-opacity="0.2"/>
+<rect width="1920" height="1123"  fill-opacity="0.2"/>
 <g filter="url(#filter0_d)">
 <rect width="1920" height="1123" fill="#86B472" fill-opacity="0.25" shape-rendering="crispEdges"/>
 </g>
@@ -2989,7 +2989,7 @@
 <path d="M1777.39 155.367C1777.68 155.367 1777.98 155.665 1777.98 155.367L1777.98 155.068C1777.68 155.068 1777.68 155.367 1777.39 155.367Z" fill="#85B472"/>
 <path d="M1809.46 139.266C1809.46 139.564 1809.17 139.564 1809.17 139.862C1809.46 139.862 1809.76 139.862 1809.76 139.564L1809.46 139.266Z" fill="#85B472"/>
 </g>
-<rect x="0.5" y="0.5" width="1919" height="1122" stroke="black"/>
+<rect x="0.5" y="0.5" width="1919" height="1122" />
 <defs>
 <filter id="filter0_d" x="-4" y="0" width="1928" height="1131" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
