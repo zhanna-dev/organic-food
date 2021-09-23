@@ -743,55 +743,51 @@ button {
   .container {
     max-width: 1140px;
   }
+  .intro {
+    padding: 60px 0 80px;
+  }
   .intro-wrap {
-    padding-left: 30px;
+    width: 560px;
   }
-  .main-items {
-    gap: 25px;
-  }
-  .main-img {
-    transform: translateX(-71px);
-  }
-  .main-items {
-    gap: 25px;
-    display: inline-flex;
-    justify-content: center;
-  }
-  .promo-img {
-    top: -30px;
-    width: 676px;
-    right: -97px;
+  .intro-wrap > .text {
+    width: 100%;
   }
   .title {
-    font-size: 63px;
+    font-size: 60px;
   }
-  .benefits-wrap {
-    margin-top: 50px;
+  .main-block {
+    width: 590px;
   }
-  .benefits-img {
-    width: 724px;
+  .main-img {
+    width: 90%;
+    transform: translateX(-41px);
   }
-  .benefits-wrap > div:nth-of-type(1) {
-    right: calc(94% + 48px);
+  .title {
+    font-size: 54px;
   }
-  .benefits-wrap > div:nth-of-type(2) {
-    transform: translate(-50%, 72%);
+
+  .main-items {
+    width: 670px;
   }
-  .benefits-wrap > div:nth-of-type(3) {
-    top: calc(100% + 79px);
+
+  .main-item {
+    width: 240px;
+    padding: 0 10px 20px;
   }
-  .benefits-wrap > div:nth-of-type(4) {
-    transform: translate(65%, 74%);
+  .main-item-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -35px;
   }
-  .benefits-wrap > div:nth-of-type(5) {
-    left: calc(100% + 7px);
+  .promo-block {
+    width: 610px;
   }
-  .benefits-card {
-    width: 222px;
+  .promo-img {
+    flex: 1;
+    position: static;
   }
-  .nutrition-img {
-    margin-top: -79px;
-    width: 59%;
+  .text {
+    width: 90%;
   }
 }
 
