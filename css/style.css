@@ -701,9 +701,9 @@ button {
   padding: 4px 25px;
 }
 
-/* .footer-nav-list > li > a:last-child {
-  border-right: hidden;
-} */
+.footer-nav-list > li:last-child a {
+  border-right: none;
+}
 
 .footer-nav-list > li > a:hover {
   text-decoration: underline;
