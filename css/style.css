@@ -401,9 +401,10 @@ button {
 /********************MAIN-START********************************* */
 .main {
   padding: 100px 0;
-  background: url(../img/mainbg.svg) no-repeat 50% / cover,
-    rgba(134, 180, 114, 0.25);
+  background: url(../img/mainbg.svg)  no-repeat 50% 35% / cover, rgba(172, 200, 160, 1);
+  ;
 }
+    
 
 .main-container {
   display: flex;
@@ -489,8 +490,17 @@ button {
 /**********************MAIN-END*******************************/
 /**********************PROMO-STAR******************************/
 .promo {
-  padding: 200px 0 325px;
+  padding: 200px 0 380px;
   overflow: hidden;
+  background: url(../img/promobg.svg) no-repeat 50% 0 / 100%;
+}
+
+.promo-subtitle {
+  margin-top: 5px;
+}
+
+.promo-text {
+  margin-top: 15px;
 }
 
 .promo-container {
@@ -507,12 +517,6 @@ button {
   gap: 50px;
 }
 
-.promo-btn {
-  background: none;
-  border: solid 2px #86b472;
-  color: #86b472;
-}
-
 .promo-btn:hover {
   background: linear-gradient(180.61deg, #98d67d 0.45%, #569f36 99.39%);
   color: #ffffff;
@@ -524,6 +528,7 @@ button {
   height: auto;
   right: -100px;
   top: -50px;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.25));
 }
 /**********************PROMO-END*******************************/
 /**********************BENEFITS-START**************************/
@@ -633,16 +638,24 @@ button {
 .nutrition-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nutrition-list > li::before {
   display: inline-block;
   content: "";
   border-radius: 999px;
-  background: #86b472;
+  background: linear-gradient(180.61deg, #98d67d 0.45%, #569f36 99.39%);
+  box-shadow: 0px 4px 14px rgba(136, 219, 10, 0.5);
   width: 14px;
   height: 14px;
-  margin-right: 15px;
+  margin-right: 17px;
+}
+
+.nutrition-list {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-top: 10px;
 }
 
 .nutrition-card-text {
@@ -651,10 +664,8 @@ button {
 }
 
 .nutrition-img {
-  margin-top: -80px;
-  width: 100%;
+  width: 870px;
   height: auto;
-  flex: 1;
 }
 
 .nutrition-text::before {
@@ -685,8 +696,16 @@ button {
 .footer-nav .footer-nav-list {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
 }
+.footer-nav-list > li > a {
+  border-right: 4px solid;
+  padding: 4px 25px;
+}
+
+/* .footer-nav-list > li > a:last-child {
+  border-right: hidden;
+} */
+
 .footer-nav-list > li > a:hover {
   text-decoration: underline;
 }
