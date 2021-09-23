@@ -401,10 +401,8 @@ button {
 /********************MAIN-START********************************* */
 .main {
   padding: 100px 0;
-  background: url(../img/mainbg.svg)  no-repeat 50% 35% / cover, rgba(172, 200, 160, 1);
-  ;
+  background: url(../img/mainbg.svg), rgba(134, 180, 114, 0.4);
 }
-    
 
 .main-container {
   display: flex;
@@ -534,8 +532,9 @@ button {
 /**********************BENEFITS-START**************************/
 .benefits {
   padding: 100px 0 450px;
-  background: rgb(134, 180, 114, 0.25);
+  background: url(../img/benefitsbg.svg) no-repeat 50% 0 / 100%;
 }
+
 .benefits-container {
   display: flex;
   flex-direction: column;
