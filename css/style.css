@@ -844,6 +844,76 @@ button {
 
 /* // `xl` applies to x-large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .navbar {
+    gap: 50px;
+  }
+  .navbar a {
+    font-size: 22px;
+  }
+  .logo-text {
+    font-size: 28px;
+  }
+  .header {
+    box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    font-size: 38px;
+  }
+  .intro-wrap {
+    width: 480px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .intro-wrap > .text {
+    width: 100%;
+  }
+  .main-block {
+    width: 46%;
+  }
+  .main {
+    padding: 65px 0;
+  }
+  .title {
+    font-size: 34px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .main-img {
+    width: 88%;
+    transform: translateX(-41px);
+  }
+  .main-img {
+    width: 55%;
+    transform: translateX(-25px);
+  }
+  .main-item {
+    width: 211px;
+    padding: 0 5px 10px;
+  }
+  .main-items {
+    width: 670px;
+    gap: 30px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .promo {
+    padding: 70px 0 100px;
+  }
+  .benefits {
+    padding: 60px 0px 356px;
+  }
+  .benefits-img {
+    width: 420px;
+  }
 }
 
 /* // `lg` applies to large devices (tablets, less than 992px) */
