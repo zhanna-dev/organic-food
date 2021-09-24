@@ -967,6 +967,44 @@ button {
   .container {
     max-width: 720px;
   }
+  .logo-img {
+    width: 35px;
+    height: 50px;
+  }
+  .navbar {
+    gap: 25px;
+  }
+  .intro {
+    padding: 40px 0 60px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .intro-wrap > .text {
+    width: 70%;
+  }
+  .btn {
+    margin-top: 15px;
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 24px;
+  }
+  .main-arrow-img {
+    width: 20px;
+    height: 20px;
+  }
+  .main-item-img {
+    width: 120px;
+    height: 120px;
+    margin-top: -14px;
+  }
+  .main-item {
+    width: 185px;
+    padding: 0 5px 5px;
+  }
+  .main-img {
+    width: 100%;
+  }
 }
 
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
