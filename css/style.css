@@ -779,16 +779,66 @@ button {
     height: 150px;
     margin-top: -35px;
   }
+
+  .promo-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .promo {
+    padding: 100px 0 125px;
+  }
   .promo-block {
     width: 46%;
+  }
+  .subtitle {
+    font-size: 22px;
+  }
+  .title {
+    font-size: 46px;
   }
   .promo-img {
     width: 57%;
     position: static;
-    top: -30px;
   }
   .text {
     width: 90%;
+  }
+  .benefits-img {
+    width: 515px;
+  }
+  .benefits-wrap {
+    margin-top: 15px;
+  }
+  .benefits-card-img-wrap {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -35px;
+  }
+  .benefits-card {
+    padding: 0 10px 13px 10px;
+    width: 200px;
+  }
+  .nutrition {
+    padding: 50px 0 99px;
+  }
+
+  .nutrition-img {
+    width: 50%;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 46px;
+  }
+  .nutrition-list {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .footer {
+    font-size: 22px;
   }
 }
 
