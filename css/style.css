@@ -945,6 +945,9 @@ button {
   .nutrition-card-text {
     width: 50%;
   }
+  .card-text {
+    font-size: 16px;
+  }
   .nutrition-img {
     width: 40%;
   }
@@ -1019,6 +1022,28 @@ button {
   }
   .benefits {
     padding: 50px 0px 280px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .benefits-img {
+    width: 380px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .benefits-card-text {
+    margin-bottom: 5px;
+  }
+  .nutrition-list > li::before {
+    width: 10px;
+    height: 10px;
+  }
+  .nutrition {
+    padding: 20px 0px 30px;
+  }
+  .nutrition-img {
+    width: 45%;
   }
 }
 
