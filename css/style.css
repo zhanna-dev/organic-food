@@ -780,11 +780,12 @@ button {
     margin-top: -35px;
   }
   .promo-block {
-    width: 610px;
+    width: 46%;
   }
   .promo-img {
-    flex: 1;
+    width: 57%;
     position: static;
+    top: -30px;
   }
   .text {
     width: 90%;
