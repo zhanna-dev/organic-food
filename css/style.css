@@ -1005,6 +1005,21 @@ button {
   .main-img {
     width: 100%;
   }
+  .title {
+    font-size: 20px;
+  }
+  .promo-block {
+    width: 70%;
+  }
+  .promo {
+    padding: 50px 0px 50px;
+  }
+  .title {
+    gap: 5px;
+  }
+  .benefits {
+    padding: 50px 0px 280px;
+  }
 }
 
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
